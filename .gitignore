@@ -1,0 +1,6 @@
+# separate repo (rakia-weekly, deployed by Vercel)
+site/
+# secrets
+telegram_config.json
+*.log
+__pycache__/

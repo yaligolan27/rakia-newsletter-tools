@@ -1,0 +1,415 @@
+{
+ "issue": {
+  "number": "001",
+  "date_he": "חמישי, 20 באוגוסט 2026",
+  "window_he": "7–16 באוגוסט",
+  "hero_kicker": "גיליון 001 · סיכום השבוע",
+  "hero_title": "השבוע בחלל",
+  "hero_sub": "שיאים ישראליים, ענק לווייני אירופי והרבה מאוד כסף — כל מה שחשוב לדעת, קצר ולעניין.",
+  "date_iso": "2026-08-20"
+ },
+ "editorial": {
+  "segments": [
+   {
+    "text": "איזה שבוע. "
+   },
+   {
+    "text": "התעשייה האווירית",
+    "url": "https://defence-industry.eu/iai-order-backlog-reaches-record-35-billion-as-first-half-profit-jumps-40-and-chairman-says-ipo-is-closer-than-ever-for-expansion/"
+   },
+   {
+    "text": " ו"
+   },
+   {
+    "text": "אלביט",
+    "url": "https://www.prnewswire.com/news-releases/elbit-systems-reports-second-quarter-2026-results-302848083.html"
+   },
+   {
+    "text": " שברו שיאי מכירות, "
+   },
+   {
+    "text": "אירופה חתמה על תוכנית הלוויינים הגדולה בתולדותיה",
+    "url": "https://payloadspace.com/europes-iris2-constellation-enters-the-build-phase/"
+   },
+   {
+    "text": ", ובוושינגטון מזהירים ש"
+   },
+   {
+    "text": "תוכנית \"כיפת הזהב\" תיעצר אם לא יגיע תקציב",
+    "url": "https://breakingdefense.com/2026/08/if-funding-falters-theres-no-golden-dome-general-warns/"
+   },
+   {
+    "text": ". ריכזנו את מה שבאמת חשוב — הזדמנויות חמות שאפשר לנצל, אירועים קרובים ו-20 ידיעות שנקראות בכמה דקות. שבוע מצוין!"
+   }
+  ]
+ },
+ "stats": [
+  {
+   "value": "7",
+   "suffix": "",
+   "label": "שיגורים מסלוליים בעולם השבוע"
+  },
+  {
+   "value": "1,710",
+   "suffix": "M$",
+   "label": "בעסקאות ומימון גדולים שדווחו השבוע"
+  },
+  {
+   "value": "8",
+   "suffix": "",
+   "label": "הזדמנויות פתוחות בגיליון הזה"
+  }
+ ],
+ "opportunities": {
+  "intro": "קולות קוראים, מענקים, מכרזים וכנסים — נשארים כאן כל עוד הם פתוחים, כדי שתספיקו לנצל אותם.",
+  "large": [
+   {
+    "type": "קול קורא",
+    "deadline_label": "הגשה עד 3.9",
+    "title": "אירופה מחלקת 91 מיליון יורו למחקר חלל",
+    "desc": "קול קורא חדש של הורייזן אירופה ב-8 נושאים — מחישה מרחוק ועד תדלוק בחלל. ישראל שותפה מלאה בתוכנית, כך שחברות ישראליות יכולות להצטרף לקונסורציומים ולקבל מימון אירופי.",
+    "url": "https://hadea.ec.europa.eu/news/horizon-europe-eu-space-research-call-2026-open-submission-2026-03-12_en",
+    "cta": "לפרטים והגשה"
+   },
+   {
+    "type": "קול קורא",
+    "deadline_label": "תקציר עד 23.11",
+    "title": "עד 1.5 מיליון דולר למו״פ משותף עם חברה אמריקאית",
+    "desc": "קרן BIRD (ישראל–ארה״ב) פתחה מחזור חדש: מענק מותנה לפרויקט פיתוח משותף של חברה ישראלית וחברה אמריקאית. השלב הראשון פשוט — תקציר מנהלים.",
+    "url": "https://www.birdf.com/bird_programs/bird-general-program/",
+    "cta": "לפרטים והגשה"
+   }
+  ],
+  "small": [
+   {
+    "type": "האצה",
+    "title": "EIC Accelerator — מענק עד 2.5 מיליון יורו + השקעה",
+    "meta": "הגשה עד 2.9 · מקוון · מועצת החדשנות האירופית",
+    "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+    "cta": "להגשה"
+   },
+   {
+    "type": "כנס",
+    "title": "World Space Business Week — ההרשמה נפתחה",
+    "meta": "14–17.9 · פריז · Novaspace",
+    "url": "https://wsbw.com/attend/tickets-registration/",
+    "cta": "להרשמה"
+   }
+  ],
+  "extra": [
+   {
+    "type": "תערוכה",
+    "title": "ביתן ישראלי ב-Space Tech Expo Europe, ברמן",
+    "meta": "הרשמה פתוחה · סוכנות החלל והפורום הישראלי לחלל",
+    "url": "https://www.space.gov.il/kolkore/134977"
+   },
+   {
+    "type": "מכרז",
+    "title": "סוכנות החלל מגייסת יועצים — הנדסה ופיתוח עסקי",
+    "meta": "הגשה עד 3.9 · סוכנות החלל הישראלית",
+    "url": "https://www.space.gov.il/kolkore/135006"
+   },
+   {
+    "type": "קול קורא",
+    "title": "הציעו אירוע משלכם לשבוע החלל הישראלי 2027",
+    "meta": "הגשה עד 11.10 · שבוע החלל: 24–28.1.2027",
+    "url": "https://www.space.gov.il/kolkore/134986"
+   },
+   {
+    "type": "כנס",
+    "title": "IAC 2026 אנטליה — ההרשמה בעיצומה",
+    "meta": "5–9.10 · אנטליה · IAF",
+    "url": "https://www.iac2026.org/registration"
+   }
+  ]
+ },
+ "events": [
+  {
+   "day": "23",
+   "month_he": "אוג׳",
+   "title": "SmallSat 2026 — כנס הלוויינים הקטנים חוגג 40",
+   "meta": "23–26.8 · סולט לייק סיטי",
+   "url": "https://smallsat.org/"
+  },
+  {
+   "day": "26",
+   "month_he": "אוג׳",
+   "title": "מפגש היכרות מקוון — NASA Space Apps חיפה",
+   "meta": "מקוון · לקראת פתיחת ההרשמה להאקתון",
+   "url": "https://lnkd.in/eUG2NX9w"
+  },
+  {
+   "day": "16",
+   "month_he": "ספט׳",
+   "title": "ימי התעשייה של סוכנות החלל האירופית",
+   "meta": "16–17.9 · נורדווייק, הולנד",
+   "url": "https://isd.esa.int/"
+  },
+  {
+   "day": "05",
+   "month_he": "אוק׳",
+   "title": "IAC 2026 — הקונגרס העולמי לאסטרונאוטיקה",
+   "meta": "5–9.10 · אנטליה, טורקיה",
+   "url": "https://www.iac2026.org/"
+  }
+ ],
+ "news": {
+  "lead": {
+   "img": "iris2.jpg",
+   "scope": "בינ״ל",
+   "category": "תקשורת לוויינית",
+   "date_source": "10.08 · Payload",
+   "title": "אירופה יוצאת לדרך: 348 לוויינים ב-15.6 מיליארד יורו",
+   "teaser": "IRIS² — רשת התקשורת המאובטחת של האיחוד האירופי — עברה משרטוטים לבנייה בפועל. זו תוכנית החלל הגדולה של אירופה מאז גלילאו.",
+   "more": "קונסורציום SpaceRISE, שמאגד את SES, Eutelsat ו-HispaSat, חתם על הסכם היישום מול הנציבות האירופית: לפחות 348 לוויינים במסלולים נמוכים ובינוניים, מימון ציבורי של כ-11.6 מיליארד יורו (כולל 2 מיליארד מספרד), ושיגור ראשון ב-2029 — על משגר אירופי בלבד. עבור תעשיית התקשורת הלוויינית, כולל הישראלית, נפתח כאן שוק ספקים חדש וגדול.",
+   "url": "https://payloadspace.com/europes-iris2-constellation-enters-the-build-phase/"
+  },
+  "items": [
+   {
+    "id": "iai",
+    "img": "iai.jpg",
+    "scope": "ישראל",
+    "category": "כלכלה ותעשייה",
+    "date_source": "14.08 · Defence Industry Europe",
+    "title": "מחצית של שיאים לתעשייה האווירית",
+    "teaser": "מכירות של 4.3 מיליארד דולר — וחטיבת החלל והטילים חצתה לראשונה מיליארד דולר במחצית.",
+    "more": "התעשייה האווירית סיכמה את המחצית הראשונה של 2026 עם מכירות שיא של 4.275 מיליארד דולר, רווח נקי שקפץ 40% ל-449 מיליון דולר ותיק הזמנות של 35 מיליארד. חטיבת הטילים והחלל צמחה 38% — בפעם הראשונה מעל מיליארד דולר במחצית. היו״ר אף רמז שהנפקה קרובה מתמיד.",
+    "url": "https://defence-industry.eu/iai-order-backlog-reaches-record-35-billion-as-first-half-profit-jumps-40-and-chairman-says-ipo-is-closer-than-ever-for-expansion/"
+   },
+   {
+    "id": "elbit",
+    "img": "elbit.jpg",
+    "scope": "ישראל",
+    "category": "כלכלה ותעשייה",
+    "date_source": "11.08 · PR Newswire",
+    "title": "אלביט ממשיכה לשבור שיאים",
+    "teaser": "תיק ההזמנות טיפס ל-32 מיליארד דולר — בעיקר בזכות אירופה.",
+    "more": "הכנסות הרבעון השני הגיעו ל-2.29 מיליארד דולר (לעומת 1.97 מיליארד בתקופה המקבילה אשתקד), ותיק ההזמנות זינק 34% ל-32 מיליארד — רובו מהזמנות אירופיות. את הצמיחה מובילות מערכות C4I וסייבר, מודיעין ולוחמה אלקטרונית.",
+    "url": "https://www.prnewswire.com/news-releases/elbit-systems-reports-second-quarter-2026-results-302848083.html"
+   },
+   {
+    "id": "spacex-double",
+    "img": "spacex-double.jpg",
+    "scope": "בינ״ל",
+    "category": "שיגורים",
+    "date_source": "15.08 · Spaceflight Now",
+    "title": "SpaceX בשיא חדש: 38 וחצי דקות בין שני שיגורים",
+    "teaser": "שני פלקון 9 המריאו בהפרש של פחות מ-40 דקות.",
+    "more": "ב-15 באוגוסט שיגרה SpaceX שמונה לווייני Globalstar מקייפ קנוורל — ו-38.5 דקות אחר כך המריא פלקון 9 נוסף. הבוסטר של המשימה הראשונה השלים את טיסתו ה-14 ונחת בהצלחה. הקצב הזה הוא בדיוק הסיבה שכל התעשייה מיישרת קו לפי SpaceX.",
+    "url": "https://spaceflightnow.com/2026/08/15/live-coverage-spacex-to-launch-satellite-replenishment-mission-for-globalstar-from-cape-canaveral/"
+   },
+   {
+    "id": "decart",
+    "img": "decart.jpg",
+    "scope": "ישראל",
+    "category": "כלכלה ותעשייה",
+    "date_source": "10.08 · כלכליסט",
+    "title": "SpaceX רוצה לקנות סטארט-אפ ישראלי ב-7 מיליארד דולר?",
+    "teaser": "לפי כלכליסט, ענקית החלל היא המחזרת המובילה אחרי Decart — חברה בת שלוש בלבד.",
+    "more": "Decart הישראלית מפתחת מודלי AI ליצירת וידאו בזמן אמת. לפי הדיווח, החברה במגעים מתקדמים למכירה לפי שווי של 6–7 מיליארד דולר, וגורמים בשוק מעריכים שהמציעה החדשה היא SpaceX. אם העסקה תיסגר — זה יהיה אחד האקזיטים הגדולים בתולדות ההייטק הישראלי, וחיבור מרתק בין AI ישראלי לתעשיית החלל.",
+    "url": "https://www.calcalistech.com/ctechnews/article/hjhzrluuml"
+   },
+   {
+    "id": "stoke",
+    "img": "stoke.jpg",
+    "scope": "בינ״ל",
+    "category": "כלכלה ותעשייה",
+    "date_source": "13.08 · Bloomberg",
+    "title": "מיליארד דולר לרקטה שחוזרת הביתה בשלמותה",
+    "teaser": "Stoke Space מגייסת לפי שווי של כ-9 מיליארד דולר.",
+    "more": "החברה מפתחת את Nova — משגר לשימוש חוזר מלא, שבו גם השלב השני חוזר לנחיתה רכה. הגיוס הנוכחי, כמיליארד דולר לפי שווי של כ-9 מיליארד (לפני הכסף), יאיץ פיתוח וייצור. עד היום גייסה החברה 1.34 מיליארד דולר.",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-13/stoke-space-is-raising-1-billion-to-fund-flagship-nova-rocket"
+   },
+   {
+    "id": "iceye",
+    "img": "iceye.jpg",
+    "scope": "בינ״ל",
+    "category": "כלכלה ותעשייה",
+    "date_source": "07.08 · Payload",
+    "title": "ההשקעה הראשונה של קרן הענק האירופית? לווייני מכ״ם",
+    "teaser": "ICEYE גייסה 450 מיליון יורו — והסבב כולו חצה מיליארד.",
+    "more": "קרן Scaleup Europe (5 מיליארד יורו, בגיבוי הנציבות האירופית ובניהול EQT) בחרה את ICEYE הפינית, מובילת תחום לווייני ה-SAR, להשקעת החלל הראשונה שלה. כשאירופה מסמנת חברת לוויינים כ\"תשתית אסטרטגית\" — כדאי לשים לב לאן זורם ההון.",
+    "url": "https://payloadspace.com/scaleup-europe-fund-makes-its-first-space-bet/"
+   },
+   {
+    "id": "im-geo",
+    "img": "im-geo.jpg",
+    "scope": "בינ״ל",
+    "category": "כלכלה ותעשייה",
+    "date_source": "13.08 · SpaceNews",
+    "title": "לקוח מסתורי, צ׳ק של 600 מיליון דולר",
+    "teaser": "Intuitive Machines תבנה שלושה לווייני תקשורת — ולא מגלה למי.",
+    "more": "החברה, שמוכרת בעיקר בזכות מנחתות הירח שלה, חתמה על חוזה של יותר מ-600 מיליון דולר לשלושה לווייני תקשורת גיאוסטציונריים על בסיס פלטפורמת IM 1300. זהות הלקוח נשארת חסויה — מה שרק מגביר את הסקרנות בתעשייה.",
+    "url": "https://spacenews.com/intuitive-machines-wins-contract-for-three-geo-satellites/"
+   },
+   {
+    "id": "reflect",
+    "img": "reflect.jpg",
+    "scope": "בינ״ל",
+    "category": "חקר החלל",
+    "date_source": "14.08 · Payload",
+    "title": "החברה שרוצה למכור אור שמש בלילה — והאסטרונומים זועמים",
+    "teaser": "Reflect Orbital מתכננת מראות ענק בחלל. השבוע היא ענתה למבקרים.",
+    "more": "החזון: קבוצת לוויינים-מראות שמחזירים אור שמש לנקודות נבחרות על כדור הארץ אחרי רדת החשכה. ארגוני שמיים חשוכים והאיגוד האסטרונומי הבינלאומי מזהירים מזיהום אור; המנכ״ל בן נובאק טוען שההשפעה מקומית וקצרה. ויכוח ששווה לעקוב אחריו — הוא ילווה את כל תחום התשתיות בחלל.",
+    "url": "https://payloadspace.com/exclusive-reflect-orbital-responds-to-its-critics/"
+   },
+   {
+    "id": "spacewalk",
+    "img": "spacewalk.jpg",
+    "scope": "בינ״ל",
+    "category": "חקר החלל",
+    "date_source": "10.08 · NASA",
+    "title": "הליכת חלל ביום שלישי — ולסופי אדנו זו הפעם הראשונה",
+    "teaser": "צמד אסטרונאוטים יחליף אנטנה על תחנת החלל, בשידור חי.",
+    "more": "אניל מנון מנאס״א וסופי אדנו מסוכנות החלל האירופית ייצאו ב-18 באוגוסט להליכת חלל של כשש וחצי שעות, להחלפת אנטנת תקשורת על התחנה הבינלאומית. עבור אדנו הצרפתייה זו הליכת החלל הראשונה בקריירה.",
+    "url": "https://www.nasa.gov/blogs/spacestation/2026/08/10/station-crew-gears-up-for-next-spacewalk-keeps-up-microgravity-research/"
+   },
+   {
+    "id": "lm7a",
+    "img": "lm7a.jpg",
+    "scope": "בינ״ל",
+    "category": "שיגורים",
+    "date_source": "10.08 · SpaceNews",
+    "title": "85 שניות ופיצוץ: כישלון סיני רביעי השנה",
+    "teaser": "משגר Long March 7A התפרק זמן קצר אחרי ההמראה — עם לוויין תקשורת צבאי על הסיפון.",
+    "more": "המשגר, שנשא את לוויין התקשורת הצבאי ChinaSat-4B, התפרק כ-85 שניות אחרי ההמראה מוונצ׳אנג. זהו הכשל הרביעי של סין ב-2026 מתוך 56 ניסיונות שיגור, והוא מציב סימן שאלה מעל משפחת המנועים YF-100 — שבועיים לפני שיגור משימת הירח צ׳אנג-אה 7, המתוכנן ל-24 באוגוסט.",
+    "url": "https://spacenews.com/chinese-long-march-7a-rocket-explodes-shortly-after-liftoff/"
+   },
+   {
+    "id": "ghost",
+    "img": "ghost.jpg",
+    "scope": "בינ״ל",
+    "category": "שיגורים",
+    "date_source": "11.08 · Payload",
+    "title": "משגר במכולה: Rocket Lab רוצה לשגר מכל מקום בעולם",
+    "teaser": "מערכת GHOST נארזת במכולות שילוח רגילות — ונפרשת לאתר שיגור שלם.",
+    "more": "GHOST תשרת את משגרי Electron ו-HASTE ותופעל לראשונה באלסקה ב-2027. וזה הגיע ברבעון שיא: הכנסות של 234 מיליון דולר (זינוק של 62% בשנה) ותיק הזמנות של 2.36 מיליארד דולר. שיגור שנפרש ממכולות — רעיון שכדאי לתעשייה הישראלית להכיר מקרוב.",
+    "url": "https://payloadspace.com/rocket-lab-unveils-ghost-on-a-record-quarter/"
+   },
+   {
+    "id": "lc36b",
+    "img": "lc36b.jpg",
+    "scope": "בינ״ל",
+    "category": "שיגורים",
+    "date_source": "12.08 · SpaceNews",
+    "title": "בלו אוריג׳ין בונה כר שיגור שני בפלורידה",
+    "teaser": "הגרסה המוגדלת של ניו גלן מקבלת בית משלה בקייפ קנוורל.",
+    "more": "החברה של ג׳ף בזוס הודיעה על הקמת LC-36B, כר שיגור שני במתחם 36, שמיועד לגרסה המשודרגת של המשגר — New Glenn 9x4. לוח זמנים לבנייה ולהפעלה טרם פורסם, אבל הכיוון ברור: להגדיל משמעותית את קצב השיגורים.",
+    "url": "https://spacenews.com/blue-origin-outlines-plans-for-second-cape-canaveral-launch-pad/"
+   },
+   {
+    "id": "qzs7",
+    "img": "qzs7.jpg",
+    "scope": "בינ״ל",
+    "category": "שיגורים",
+    "date_source": "10.08 · SpaceNews",
+    "title": "יפן שיגרה לוויין ניווט — עם חיישן אמריקאי על הסיפון",
+    "teaser": "שיתוף פעולה ביטחוני נדיר: חיישן מעקב של כוח החלל האמריקאי על לוויין יפני.",
+    "more": "משגר H3 שיגר את QZS-7 (מיצ׳יביקי-7), לוויין ניווט של המערך האזורי היפני, שנושא את החיישן השני והאחרון בתוכנית המשותפת ליפן ולכוח החלל האמריקאי למודעות למרחב החלל. דוגמה לאיך מדינות משלבות מטענים ביטחוניים על תשתית אזרחית.",
+    "url": "https://spacenews.com/u-s-space-force-adds-second-surveillance-sensor-to-japanese-constellation/"
+   },
+   {
+    "id": "moon-health",
+    "img": "moon-health.jpg",
+    "scope": "בינ״ל",
+    "category": "חקר החלל",
+    "date_source": "14.08 · Payload",
+    "title": "נאס״א שואלת: מה קורה לגוף אחרי חודשים על הירח?",
+    "teaser": "קול קורא לחוקרים לעצב את מחקר הבריאות לקראת שהייה ארוכה על הירח.",
+    "more": "תוכנית המחקר האנושי של נאס״א פרסמה בקשת מידע (RFI) שתעצב את סדר היום המחקרי במעבר מביקורי ארטמיס קצרים לנוכחות ממושכת על פני הירח — קרינה, אבק ירחי, בידוד ועוד. הזדמנות טבעית גם לקהילת רפואת החלל הישראלית.",
+    "url": "https://payloadspace.com/nasa-opens-call-on-moon-base-health-research/"
+   },
+   {
+    "id": "golden-dome",
+    "img": "brand:img-vision2.png",
+    "scope": "בינ״ל",
+    "category": "ביטחון",
+    "date_source": "11.08 · Breaking Defense",
+    "title": "בלי תקציב — אין \"כיפת זהב\"",
+    "teaser": "הגנרל שמוביל את תוכנית ההגנה האמריקאית הענקית מזהיר: הכסף נגמר ב-1 באוקטובר.",
+    "more": "\"כיפת הזהב\", מערך הגנה מפני טילים בעלות מוערכת של 185 מיליארד דולר, תלויה עכשיו בקונגרס: מתוך בקשת תקציב של 17.5 מיליארד דולר לשנה הקרובה, פחות מ-400 מיליון מובטחים בתקציב הבסיס. הגנרל מייקל גטליין הבהיר — בלי החלטה, העבודה נעצרת בתחילת שנת התקציב 2027.",
+    "url": "https://breakingdefense.com/2026/08/if-funding-falters-theres-no-golden-dome-general-warns/"
+   },
+   {
+    "id": "spacecom",
+    "img": "spacecom.jpg",
+    "scope": "בינ״ל",
+    "category": "ביטחון",
+    "date_source": "12.08 · SpaceNews",
+    "title": "מה צריך כדי לנצח מלחמה בחלל? לפיקוד האמריקאי יש רשימה",
+    "teaser": "ובראשה: יכולות תקיפה בחלל.",
+    "more": "הגנרל סטיבן וייטינג הציג את סדר העדיפויות של פיקוד החלל האמריקאי לשנים 2029–2033: \"אש חללית משולבת\" (כן, יכולות תקיפה), מערכות נגד קבוצות לוויינים במסלול נמוך, פיקוד ובקרה משולב ומודעות למרחב החלל. המסר לתעשייה ברור — לשם הולך הכסף בעשור הקרוב.",
+    "url": "https://spacenews.com/space-command-identifies-capabilities-it-needs-for-the-next-space-war/"
+   },
+   {
+    "id": "disposal",
+    "img": "disposal.jpg",
+    "scope": "בינ״ל",
+    "category": "ביטחון",
+    "date_source": "16.08 · SpaceNews",
+    "title": "גם ללוויינים מגיע סוף מסודר",
+    "teaser": "הפנטגון בוחן שירותי \"גרר חללי\" — הורדה מסודרת של לוויינים מזדקנים מהמסלול.",
+    "more": "יחידת החדשנות של משרד ההגנה האמריקאי (DIU) וסוכנות הפיתוח החללית בחרו שלוש חברות — Firefly,‏ D-Orbit ו-Katalyst Space — לבחון שירות מסחרי של הוצאת חלליות ותיקות ממסלול. תחום שצומח במהירות יחד עם בעיית פסולת החלל.",
+    "url": "https://spacenews.com/u-s-defense-agencies-tap-three-companies-for-satellite-disposal-study/"
+   },
+   {
+    "id": "schiess",
+    "img": "schiess.jpg",
+    "scope": "בינ״ל",
+    "category": "מדיניות",
+    "date_source": "07.08 · DefenseScoop",
+    "title": "מפקד חדש לכוח החלל האמריקאי",
+    "teaser": "הסנאט אישר פה אחד את דאגלס שייס. כניסה לתפקיד: 3 בספטמבר.",
+    "more": "שייס, כיום סגן ראש מבצעי החלל, יחליף את הגנרל צ׳אנס סלצמן ויהיה המפקד השלישי בתולדות כוח החלל. בשימוע האישור שלו שם דגש אחד ברור: הרתעה בחלל מול ההתקדמות הטכנולוגית של יריבות ארה״ב.",
+    "url": "https://defensescoop.com/2026/08/07/congress-confirms-schiess-as-chief-of-space-operations/"
+   },
+   {
+    "id": "huntsville",
+    "img": "huntsville.jpg",
+    "scope": "בינ״ל",
+    "category": "מדיניות",
+    "date_source": "13.08 · SpaceNews",
+    "title": "פיקוד החלל עוזב את קולורדו",
+    "teaser": "המטה עובר להאנטסוויל, אלבמה — יעד של כ-1,800 עובדים עד 2032.",
+    "more": "יותר מ-100 אנשי צוות כבר עברו לבסיס רדסטון, והפנטגון מבקש 951 מיליון דולר בתקציב 2027 לתכנון, בנייה והעברה. ההחלטה סוגרת מאבק פוליטי רב-שנים בין קולורדו לאלבמה על אחד המטות הנחשקים בצבא האמריקאי.",
+    "url": "https://spacenews.com/space-command-expands-alabama-footprint-as-headquarters-relocation-advances/"
+   }
+  ],
+  "briefs": []
+ },
+ "videos": [
+  {
+   "thumb": "vid-ghost.jpg",
+   "title": "ההכרזה של Rocket Lab: אתר שיגור שנפרש ממכולות",
+   "channel": "Rocket Lab · הערוץ הרשמי",
+   "url": "https://www.youtube.com/watch?v=uA7sWXTGcsg"
+  },
+  {
+   "thumb": "vid-iris2.jpg",
+   "title": "מה זו בעצם IRIS²? ההסבר הרשמי של האיחוד האירופי",
+   "channel": "EU Defence and Space",
+   "url": "https://www.youtube.com/watch?v=hfzUMxZAVk4"
+  },
+  {
+   "thumb": "vid-h3.jpg",
+   "title": "שיגור ה-H3 היפני עם לוויין הניווט מיצ׳יביקי-7",
+   "channel": "VideoFromSpace (Space.com)",
+   "url": "https://www.youtube.com/watch?v=gVRblvlV4r4"
+  }
+ ],
+ "credit_note": "התמונות בגיליון באדיבות הכתבות המקושרות והמקורות הרשמיים (נאס״א, יוטיוב).",
+ "spotlight": {
+  "placeholder": true,
+  "kicker": "ספוטלייט רקיע · [תאריך האירוע]",
+  "title": "[שם האירוע של רקיע]",
+  "name_en": "",
+  "sub": "[2–3 משפטים על האירוע: מה קורה בו, למי הוא מיועד ולמה כדאי להגיע. שלחו לי את התוכן — והבלוק יתעדכן.]",
+  "tracks": [],
+  "info_line": "[פרט חשוב נוסף / מועד אחרון להרשמה]",
+  "cta_primary": {
+   "text": "[להרשמה]",
+   "url": "https://www.rakiamission.com/"
+  },
+  "links": []
+ }
+}

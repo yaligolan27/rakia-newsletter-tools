@@ -1,0 +1,321 @@
+{
+ "editorial": {
+  "segments": [
+   {
+    "text": "השבוע שהיה בחלל הביא איתו רעידות אדמה כלכליות מכל הכיוונים - "
+   },
+   {
+    "text": "יוז סאטלייט סיסטמס, ענקית תקשורת לוויינית ותיקה, הגישה בקשה לפשיטת רגל",
+    "url": "https://www.satellitetoday.com/finance/2026/08/03/hughes-files-for-chapter-11-with-plan-to-reorganize-around-enterprise-defense-business/"
+   },
+   {
+    "text": ", בעוד טלסאט חתמה על החוזה הגדול בתולדותיה: 2.3 מיליארד דולר קנדי לתקשורת ביטחונית בארקטיקה",
+    "url": "https://www.telesat.com/press/press-releases/telesat-secures-2-3-billion-arctic-military-satcom-contract-expanding-telesat-lightspeed-network-and-capacity-by-44/"
+   },
+   {
+    "text": ". גם ספייסאקס לא נשארה מאחור ופרסמה את הדוח הרבעוני הראשון שלה כחברה ציבורית, עם הכנסות של 7.8 מיליארד דולר",
+    "url": "https://www.satellitetoday.com/finance/2026/08/05/spacex-outlines-starlink-mobile-plans-in-first-earnings-report/"
+   },
+   {
+    "text": " - ותוך כדי כך היא כבר מתכוננת לניסיון השיגור הבא של סטארשיפ, הפעם עם ניסיון לתפוס בחזרה את החללית",
+    "url": "https://spacepolicyonline.com/news/next-starship-will-deliver-operational-v3-starlinks-to-orbit-maybe-catch-ship/"
+   },
+   {
+    "text": ". שבוע עמוס כרגיל - קריאה מהנה!"
+   }
+  ]
+ },
+ "events": [
+  {
+   "day": "23",
+   "month_he": "אוג׳",
+   "title": "SmallSat 2026",
+   "meta": "23–26.8 · סולט לייק סיטי",
+   "url": "https://smallsat.org/"
+  },
+  {
+   "day": "07",
+   "month_he": "ספט׳",
+   "title": "Bengaluru Space Expo 2026",
+   "meta": "7–9.9 · בנגלורו, הודו",
+   "url": "https://www.bsxindia.com/bsx_conference-2026.php"
+  },
+  {
+   "day": "14",
+   "month_he": "ספט׳",
+   "title": "World Space Business Week 2026",
+   "meta": "14–17.9 · פריז",
+   "url": "https://wsbw.com/"
+  },
+  {
+   "day": "15",
+   "month_he": "ספט׳",
+   "title": "AMOS Conference 2026",
+   "meta": "15–18.9 · מאוי, הוואי",
+   "url": "https://amostech.com/"
+  }
+ ],
+ "issue": {
+  "number": "000",
+  "date_he": "חמישי, 13 באוגוסט 2026",
+  "window_he": "2–8 באוגוסט",
+  "hero_kicker": "גיליון 000 · סיכום השבוע",
+  "hero_title": "השבוע בחלל",
+  "hero_sub": "פשיטת רגל של ענקית לוויינים, עסקת ענק ארקטית וסטארשיפ שמתכוננת לנסות שוב - וגם הישג ישראלי בתקשורת לוויינית. הכול קצר ולעניין.",
+  "date_iso": "2026-08-13"
+ },
+ "news": {
+  "lead": {
+   "id": "spacex-earnings",
+   "scope": "בינ״ל",
+   "category": "כלכלה ותעשייה",
+   "date_source": "05.08 · Via Satellite",
+   "title": "ספייסאקס חושפת: 7.8 מיליארד דולר ברבעון",
+   "teaser": "הדוח הרבעוני הראשון מאז ההנפקה חושף חברה שגדלה במהירות מסחררת.",
+   "more": "ברבעון השני של 2026 דיווחה ספייסאקס, בדוח הרבעוני הראשון שלה כחברה ציבורית, על הכנסות של 7.8 מיליארד דולר - כמעט כפול מהשנה הקודמת - ו-3.5 מיליארד דולר EBITDA מתואם. הכנסות סטארלינק הגיעו ל-4.3 מיליארד דולר (עלייה של 66%) עם 12 מיליון מנויים. החברה גם הכריזה על תוכנית לקונסטלציית Starlink Mobile חדשה של כ-6,500 לוויינים, שתחל לפעול עד סוף 2027.",
+   "url": "https://www.satellitetoday.com/finance/2026/08/05/spacex-outlines-starlink-mobile-plans-in-first-earnings-report/",
+   "img": "spacex-earnings.jpg"
+  },
+  "items": [
+   {
+    "id": "gilat-ai-interference",
+    "scope": "ישראל",
+    "category": "תקשורת לוויינית",
+    "date_source": "06.08 · Via Satellite",
+    "title": "גילת מדגימה טכנולוגיית AI נגד הפרעות לוויין",
+    "teaser": "טכנולוגיה ישראלית חדשה מנטרלת הפרעות תקשורת לוויינית פי 10 טוב יותר.",
+    "more": "גילת סאטקום הדגימה טכנולוגיה מבוססת בינה מלאכותית, בהליכי רישום פטנט, לזיהוי וסינון הפרעות בקישורי תקשורת לוויינית - עם שיפור של עד פי 10 בהשוואה לשיטות מיטיגציה מקובלות, ופגיעה זניחה בלבד באות המקורי. סגן נשיא ומנהל המו״פ אהרון מולוקנדוב אמר שהטכנולוגיה עונה על התחרות הגוברת על ספקטרום התדרים בשימושים ביטחוניים ואזרחיים כאחד. בהמשך מתכננת גילת להדגים אותה על חומרת מאיצי AI ייעודית לפריסה בטרמינלים תפעוליים בצריכת חשמל נמוכה.",
+    "url": "https://www.satellitetoday.com/technology/2026/08/06/gilat-demonstrates-interference-detection-and-cancellation-technology/",
+    "img": "brand:img-vision2.png"
+   },
+   {
+    "id": "gilat-q2-results",
+    "scope": "ישראל",
+    "category": "כלכלה ותעשייה",
+    "date_source": "05.08 · StockTitan",
+    "title": "גילת מדווחת על צמיחה של 17% ברבעון",
+    "teaser": "הביקוש הביטחוני בארה״ב ובאירופה ממשיך להניע את גילת קדימה.",
+    "more": "גילת סאטקום דיווחה על הכנסות של 122.7 מיליון דולר ברבעון השני של 2026, עלייה של 17% לעומת השנה הקודמת, ו-EBITDA מתואם שזינק ב-31% ל-15.4 מיליון דולר. החברה אישרה מחדש תחזית שנתית של 500-520 מיליון דולר. עסקת רכישת חטיבת התקשורת הלוויינית של Comtech מתקדמת לקראת השלמה עד סוף השנה, שתיצור חברה משולבת עם מעל 700 מיליון דולר הכנסות שנתיות.",
+    "url": "https://www.stocktitan.net/news/GILT/gilat-reports-second-quarter-2026-m5ygnufw6g4m.html",
+    "img": "gilat-q2-results.jpg"
+   },
+   {
+    "id": "telesat-arctic-contract",
+    "scope": "בינ״ל",
+    "category": "כלכלה ותעשייה",
+    "date_source": "04.08 · Telesat",
+    "title": "העסקה הגדולה בתולדות טלסאט: 2.3 מיליארד דולר קנדי",
+    "teaser": "קנדה משלמת הון תועפות על תקשורת לוויינית ביטחונית לארקטיקה.",
+    "more": "טלסאט חתמה על חוזה בשווי 2.3 מיליארד דולר קנדי (כ-1.6 מיליארד דולר) עם סוכנות ההשקעות הביטחונית של קנדה לחיבור לוויני מאובטח לארקטיקה - העסקה הגדולה ביותר בתולדות החברה בת ה-60. עם שתי אופציות של חמש שנים הערך עשוי לטפס ל-2.7 מיליארד דולר קנדי. המימון יוסיף 69 לוויינים לרשת Telesat Lightspeed, שתגדל מ-156 ל-225 לוויינים ותגביר את הקיבולת ב-44%.",
+    "url": "https://www.telesat.com/press/press-releases/telesat-secures-2-3-billion-arctic-military-satcom-contract-expanding-telesat-lightspeed-network-and-capacity-by-44/",
+    "img": "telesat-arctic-contract.jpg"
+   },
+   {
+    "id": "hughes-bankruptcy",
+    "scope": "בינ״ל",
+    "category": "כלכלה ותעשייה",
+    "date_source": "03.08 · Via Satellite",
+    "title": "יוז סאטלייט קורסת לפשיטת רגל",
+    "teaser": "ענקית התקשורת הלוויינית הוותיקה לא עמדה בנטל החוב מול המתחרות ה-LEO.",
+    "more": "יוז סאטלייט סיסטמס הגישה בקשה לפשיטת רגל לפי פרק 11 ב-3 באוגוסט, אחרי שנכשלה למחזר כ-1.5 מיליארד דולר חוב שפקע ב-1 באוגוסט. החברה רשמה הפסד נקי של 1.3 מיליארד דולר ב-2025, כשמספר מנויי HughesNet צנח ב-22% ל-641,000 מול התחרות של סטארלינק ואמזון Leo. התוכנית: התארגנות מחדש סביב צבר הזמנות ארגוני-ביטחוני של 1.5 מיליארד דולר וקיצוץ כ-400 משרות.",
+    "url": "https://www.satellitetoday.com/finance/2026/08/03/hughes-files-for-chapter-11-with-plan-to-reorganize-around-enterprise-defense-business/",
+    "img": "brand:img-crew.png"
+   },
+   {
+    "id": "starship-flight-14",
+    "scope": "בינ״ל",
+    "category": "שיגורים",
+    "date_source": "04.08 · SpacePolicyOnline.com",
+    "title": "סטארשיפ מתכוננת לנסות תפיסת חללית לראשונה",
+    "teaser": "אחרי כישלון מסלולי בטיסה הקודמת, ספייסאקס רוצה הפעם להגיע למסלול אמיתי.",
+    "more": "בשיחת הרווחים הפומבית הראשונה שלה כחברה ציבורית, הודיעה ספייסאקס שטיסה 14 של סטארשיפ, המתוכננת לסוף אוגוסט, תנסה לשגר את דור לוויני הסטארלינק V3 הבא למסלול אמיתי לראשונה - אחרי ש-20 לוויני V3 בטיסה 13 הגיעו רק למסלול תת-מסלולי ונפלו בחזרה לכדור הארץ. החברה גם תנסה לתפוס את החללית החוזרת במגדל הלכידה בסטארבייס, בכפוף לאישור רגולטורי. אילון מאסק הצהיר שבעיית מגן החום \"נפתרה\".",
+    "url": "https://spacepolicyonline.com/news/next-starship-will-deliver-operational-v3-starlinks-to-orbit-maybe-catch-ship/",
+    "img": "starship-flight-14.jpg"
+   },
+   {
+    "id": "starlink-50th-west-coast",
+    "scope": "בינ״ל",
+    "category": "שיגורים",
+    "date_source": "08.08 · Spaceflight Now",
+    "title": "שיגור סטארלינק ה-50 מהחוף המערבי השנה",
+    "teaser": "ספייסאקס ממשיכה לשבור שיאי קצב שיגורים משלה.",
+    "more": "ב-8 באוגוסט שיגרה ספייסאקס 24 לוויני סטארלינק מבסיס Vandenberg - השיגור ה-50 שלה מהחוף המערבי ומשימת האספקה התפעולית ה-71 של סטארלינק השנה. המאיץ B1093 השלים טיסה 16 ונחת בהצלחה על ספינת רחפן.",
+    "url": "https://spaceflightnow.com/2026/08/08/live-coverage-spacex-west-coast-launch-surge-continues-with-starlink-mission/",
+    "img": "starlink-50th-west-coast.jpg"
+   },
+   {
+    "id": "ast-spacemobile-record-booster",
+    "scope": "בינ״ל",
+    "category": "שיגורים",
+    "date_source": "05.08 · Spaceflight Now",
+    "title": "מאיץ פלקון 9 מגיע לרף נדיר של 30 טיסות",
+    "teaser": "בדרך ללוויינים חדשים של AST SpaceMobile, המאיץ עצמו גנב את ההצגה.",
+    "more": "פלקון 9 שיגר ב-5 באוגוסט שלושה לוויני BlueBird Block 2 של AST SpaceMobile לתקשורת ישירה לנייד, מקייפ קנוורל. המאיץ B1077 הפך לחמישי בלבד מבין מאיצי פלקון 9 שמגיע ל-30 טיסות, והנחיתה הייתה הנחיתה ה-645 של מאיץ פלקון בסך הכול.",
+    "url": "https://spaceflightnow.com/2026/08/05/live-coverage-spacex-to-launch-3-ast-spacemobile-bluebird-satellites-on-falcon-9-rocket-from-cape-canaveral/",
+    "img": "ast-spacemobile-record-booster.jpg"
+   },
+   {
+    "id": "blue-origin-new-glenn-cause",
+    "scope": "בינ״ל",
+    "category": "שיגורים",
+    "date_source": "06.08 · Spaceflight Now",
+    "title": "בלו אוריג׳ין מוצאת את הסיבה לפיצוץ ניו גלן",
+    "teaser": "התקלה שגרמה לפיצוץ במאי צפויה להשפיע גם על רקטת Vulcan המתחרה.",
+    "more": "בלו אוריג׳ין הודיעה ב-6 באוגוסט שמדובר בתקלה בשסתום חמצן ראשי במנוע BE-4, שגרמה לפיצוץ בבדיקת הצתה סטטית של ניו גלן ב-28 במאי בקייפ קנוורל. חומרה מעודכנת צפויה עד סוף החודש. אותו תיקון יידרש גם לרקטת Vulcan של ULA, שמפעילה אף היא מנועי BE-4. בלו אוריג׳ין עדיין שואפת להחזיר את ניו גלן לטיסה עד סוף 2026.",
+    "url": "https://spaceflightnow.com/2026/08/06/blue-origin-identifies-engine-issue-behind-new-glenn-explosion/",
+    "img": "blue-origin-new-glenn-cause.jpg"
+   },
+   {
+    "id": "rocket-lab-space-force-contract",
+    "scope": "בינ״ל",
+    "category": "כלכלה ותעשייה",
+    "date_source": "04.08 · GlobeNewswire / Rocket Lab",
+    "title": "רוקט לאב זוכה בחוזה ביטחוני של 397 מיליון דולר",
+    "teaser": "חיל החלל האמריקאי מזמין לוויינים שטוחים לזיהוי מטרות נעות.",
+    "more": "רוקט לאב זכתה ב-397 מיליון דולר מתוך חוזה משולב של 615 מיליון דולר שהעניק חיל החלל האמריקאי, בשיתוף Systems & Technology Research וספק שלישי שלא נחשף, שהוכרז ב-4 באוגוסט. החוזה מיועד לבניית ושיגור לוויני \"Flatellite\" עבור תוכנית Space-Based Airborne Moving Target Indicator.",
+    "url": "https://www.globenewswire.com/news-release/2026/08/04/3338977/0/en/rocket-lab-awarded-397-million-contract-to-build-and-launch-flatellites-for-u-s-space-force-s-space-based-airborne-moving-target-indicator-program.html",
+    "img": "rocket-lab-space-force-contract.jpg"
+   },
+   {
+    "id": "china-guowang-186",
+    "scope": "בינ״ל",
+    "category": "שיגורים",
+    "date_source": "04.08 · Friends of NASA",
+    "title": "המגה-קונסטלציה הסינית חוצה 186 לוויינים",
+    "teaser": "סין ממשיכה לבנות בקצב מהיר רשת ברודבנד ענקית משלה.",
+    "more": "רקטת Long March 8A שיגרה מוונצ׳אנג ב-4 באוגוסט תשעה לוויינים נוספים לרשת הברודבנד הממשלתית GuoWang - האצווה ה-23 שלה - והביאה את הרשת ל-186 לוויינים במסלול. המפעילה China Satellite Network Group מתכננת כ-310 לוויינים עד סוף השנה, ועד 13,000 לוויינים בשנות ה-30 של המאה.",
+    "url": "https://www.friendsofnasa.org/2026/08/china-long-march-8a-rocket-launches_0712555896.html",
+    "img": "china-guowang-186.jpg"
+   },
+   {
+    "id": "china-jielong-3-sea-launch",
+    "scope": "בינ״ל",
+    "category": "שיגורים",
+    "date_source": "05.08 · Global Times",
+    "title": "שיגור ימי מסין מעמיס לווייני AI לאינדונזיה",
+    "teaser": "פלטפורמה צפה מול חופי סין שיגרה לוויינים חכמים לשני שותפים זרים.",
+    "more": "רקטת הדלק המוצק Jielong-3 של China Rocket Co. שוגרה ב-5 באוגוסט מפלטפורמה ימית ליד היאיאנג, והציבה במסלול שני לוויינים היפרספקטרליים לתצפית כדור הארץ המבוססים על AI - Lampung-1 ו-Samarkand-2028 - עבור שותפים אינדונזיים ואוזבקיים, כחלק משיתוף פעולה מסחרי בינלאומי.",
+    "url": "https://www.globaltimes.cn/page/202608/1367557.shtml",
+    "img": "china-jielong-3-sea-launch.jpg"
+   },
+   {
+    "id": "rocket-lab-92nd-electron",
+    "scope": "בינ״ל",
+    "category": "שיגורים",
+    "date_source": "06.08 · Rocket Lab",
+    "title": "רוקט לאב משגרת את האלקטרון ה-92 שלה",
+    "teaser": "שיא מושלם: כל שיגור ליפני iQPS עד כה הצליח.",
+    "more": "רוקט לאב שיגרה ב-6 באוגוסט מניו זילנד את משימת האלקטרון ה-13 שלה השנה, שהעניקה ללוויין הראדארי QPS-SAR-13 של קונסטלציית iQPS היפנית מקום במסלול. זהו שיגור האלקטרון ה-92 של החברה בסך הכול, עם שיא הצלחה מושלם עבור תוכנית iQPS.",
+    "url": "https://rocketlabcorp.com/updates/rocket-lab-successfully-completes-92nd-electron-mission-8th-launch-for-iqps-earth-imaging-constellation/",
+    "img": "rocket-lab-92nd-electron.jpg"
+   },
+   {
+    "id": "nro-radar-contracts",
+    "scope": "בינ״ל",
+    "category": "כלכלה ותעשייה",
+    "date_source": "05.08 · Breaking Defense",
+    "title": "NRO משדרג שלוש חברות ראדאר לחוזה תפעולי",
+    "teaser": "קפלה, ICEYE ואמברה עוברות משלב הדגמה לאספקת נתונים בלעדית.",
+    "more": "משרד המודיעין הלאומי לתצפית האמריקאי (NRO) העניק, כפי שדווח ב-5 באוגוסט, חוזי Radar Commercial Augmentation חדשים ורב-שנתיים לקפלה ספייס, ICEYE US ואמברה - והעביר את שלוש ספקיות הראדאר הסינתטי-פתח מהדגמה לאספקת נתונים תפעולית בלעדית עד אמצע 2027, עם אופציות עד 2029. שווי החוזים לא פורסם.",
+    "url": "https://breakingdefense.com/2026/08/nro-issues-3-sar-satellite-data-providers-rigorous-new-contracts/",
+    "img": "brand:img-education.png"
+   },
+   {
+    "id": "neuraspace-funding",
+    "scope": "בינ״ל",
+    "category": "כלכלה ותעשייה",
+    "date_source": "05.08 · SpaceNews",
+    "title": "סטארטאפ פורטוגלי גייס למעקב אחר פסולת חלל",
+    "teaser": "AI שעוקב אחר מה שמסתובב מעלינו מגייס הון וזוכה לתמיכה צבאית.",
+    "more": "Neuraspace, סטארטאפ פורטוגלי לניהול תעבורת חלל, גייס 15.6 מיליון יורו (כ-18 מיליון דולר) ב-5 באוגוסט - 6 מיליון יורו בסבב B ו-9.6 מיליון יורו מתוכנית ההתאוששות של פורטוגל - להרחבת פלטפורמת מודעות המרחב החללי מבוססת ה-AI שלו, שבין לקוחותיה ESA ו-Spire Global. החברה נבחרה גם לאחרונה לתוכנית האצה של נאט״ו, ושותפה עם חיל האוויר הפורטוגלי המארח את ציוד המעקב האופטי שלה.",
+    "url": "https://spacenews.com/neuraspace-raises-18-million-to-expand-sovereign-space-awareness/",
+    "img": "neuraspace-funding.jpg"
+   },
+   {
+    "id": "rfa-one-delay",
+    "scope": "בינ״ל",
+    "category": "שיגורים",
+    "date_source": "06.08 · Shetland News",
+    "title": "השיגור הראשון מבריטניה נדחה שוב",
+    "teaser": "רקטת RFA One פורקה מהמשגר אחרי תקלה בבדיקת לחץ.",
+    "more": "חברת Rocket Factory Augsburg ביטלה את חלון השיגור המתוכנן של RFA One מ-SaxaVord Spaceport בסקוטלנד, שהיה אמור להיפתח ב-10 באוגוסט, אחרי תקלה לא מפורטת שהתגלתה בבדיקת לחץ לקראת בדיקת הצתה. הרקטה נפרקה מהמשגר, וטרם נקבע מועד חדש - מה שממשיך לעכב את השיגור המסלולי הראשון מבריטניה.",
+    "url": "https://www.shetnews.co.uk/2026/08/06/first-rocket-launch-from-saxavord-delayed-further/",
+    "img": "rfa-one-delay.jpg"
+   }
+  ]
+ },
+ "opportunities": {
+  "intro": "כמה הזדמנויות חמות שכדאי להכיר - כולן נשארות פתוחות עד שייסגרו:",
+  "large": [
+   {
+    "type": "קול קורא",
+    "deadline_label": "הגשה עד 3.9",
+    "title": "קול קורא ענק של הורייזן אירופה לחלל",
+    "desc": "90.97 מיליון יורו בשמונה נושאים - גישה לחלל, תצפית כדור הארץ ותקשורת לוויינית, מדעי חלל וטכנולוגיות קריטיות לעצמאות חללית אירופית. ישראל, כחברה משויכת להורייזן אירופה, יכולה להוביל או להצטרף לקונסורציומים אירופיים.",
+    "url": "https://hadea.ec.europa.eu/news/horizon-europe-eu-space-research-call-2026-open-submission-2026-03-12_en",
+    "cta": "להגשה"
+   },
+   {
+    "type": "קול קורא",
+    "deadline_label": "הגשה עד 2.9",
+    "title": "EIC Accelerator - מענק ועד 2.5 מיליון יורו",
+    "desc": "מענק משולב (עד 2.5 מיליון יורו) בתוספת אופציית השקעת הון (עד 10 מיליון יורו) לחברות דיפ-טק פורצות דרך, כולל טכנולוגיות חלל. שישה מועדי הגשה ב-2026; המועד הבא להגשה מלאה הוא 2 בספטמבר.",
+    "url": "https://eic.ec.europa.eu/eic-funding-opportunities_en",
+    "cta": "להגשה"
+   }
+  ],
+  "small": [
+   {
+    "type": "קול קורא",
+    "title": "EIC STEP Scale Up - השקעות צמיחה",
+    "meta": "הגשה עד 9.9 · מקוון · EIC",
+    "url": "https://eic.ec.europa.eu/eic-funding-opportunities_en",
+    "cta": "פרטים"
+   },
+   {
+    "type": "האצה",
+    "title": "ASTRA - האצת החלל של תע״א",
+    "meta": "הרשמה מתגלגלת · Starburst & IAI",
+    "url": "https://starburst.aero/astra/apply-now/",
+    "cta": "להרשמה"
+   }
+  ],
+  "extra": [
+   {
+    "type": "כנס",
+    "title": "World Space Business Week 2026",
+    "meta": "14–17.9 · פריז",
+    "url": "https://wsbw.com/attend/tickets-registration/"
+   },
+   {
+    "type": "כנס",
+    "title": "IAC 2026 - הקונגרס האסטרונאוטי הבינלאומי ה-77",
+    "meta": "5–9.10 · אנטליה, טורקיה",
+    "url": "https://www.iac2026.org/"
+   },
+   {
+    "type": "תערוכה",
+    "title": "Space Tech Expo Europe 2026",
+    "meta": "17–19.11 · ברמן, גרמניה",
+    "url": "https://www.spacetechexpo-europe.com/register-your-interest-2026"
+   }
+  ]
+ },
+ "stats": [
+  {
+   "value": "6",
+   "suffix": "",
+   "label": "ניסיונות שיגור מסלוליים בשבוע הסיקור"
+  },
+  {
+   "value": "2,543",
+   "suffix": "M$",
+   "label": "בעסקאות וגיוסי הון שדווחו השבוע"
+  },
+  {
+   "value": "7",
+   "suffix": "",
+   "label": "הזדמנויות פתוחות בגיליון הזה"
+  }
+ ]
+}

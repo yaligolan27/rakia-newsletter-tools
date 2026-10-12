@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<style>
+@font-face{font-family:'Almoni';src:url('assets/fonts/almoni-light-aaa.otf');font-weight:300;font-display:swap}
+@font-face{font-family:'Almoni';src:url('assets/fonts/almoni-regular-aaa.otf');font-weight:400;font-display:swap}
+@font-face{font-family:'Almoni';src:url('assets/fonts/almoni-medium-aaa.otf');font-weight:500;font-display:swap}
+@font-face{font-family:'Almoni';src:url('assets/fonts/almoni-bold-aaa.otf');font-weight:700;font-display:swap}
+@font-face{font-family:'Almoni Tzar';src:url('assets/fonts/almoni-tzar-medium-aaa.otf');font-weight:500;font-display:swap}
+@font-face{font-family:'Almoni Tzar';src:url('assets/fonts/almoni-tzar-bold-aaa.otf');font-weight:700;font-display:swap}
+body{margin:0;padding:0;background:#dfe7ee;font-family:'Almoni',system-ui,sans-serif}
+a{color:#111b32;text-decoration:none}
+a:hover{color:#d54b63}
+</style>
+</helmet>
+
+<div dir="rtl" style="background:#dfe7ee; padding:32px 16px 56px; font-family:'Almoni',system-ui,sans-serif; -webkit-font-smoothing:antialiased">
+
+<div style="max-width:640px; margin:0 auto; text-align:center; font-size:12px; color:#67717f; letter-spacing:.02em; padding-bottom:14px">
+  הזדמנויות וחדשות תעשיית החלל &nbsp;·&nbsp; לצפייה בדפדפן <a href="#" style="color:#67717f; text-decoration:underline; text-underline-offset:.2rem">לחצו כאן</a>
+</div>
+
+<div style="max-width:640px; margin:0 auto; background:#ffffff; border-radius:20px; overflow:hidden">
+
+  <!-- header bar -->
+  <div style="background:#111b32; display:flex; align-items:center; justify-content:space-between; padding:18px 28px">
+    <img src="assets/logo-rakia-white.png" alt="משימת רקיע" style="height:26px; display:block" />
+    <div style="display:flex; align-items:center; gap:10px">
+      <span style="font-family:'Almoni Tzar'; font-weight:500; font-size:15px; letter-spacing:.18em; color:#f9fdff">ניוזלטר שבועי</span>
+      <span style="width:1px; height:16px; background:#ffffff40; display:block"></span>
+      <span style="font-size:13px; font-weight:300; color:#aab3c2">גיליון 042</span>
+      <span style="width:1px; height:16px; background:#ffffff40; display:block"></span>
+      <span style="display:flex; align-items:center; gap:6px; font-family:'Almoni Tzar'; font-weight:500; font-size:14px">
+        <span style="color:#f9fdff; border-bottom:1.5px solid #f9fdff; padding-bottom:1px">א</span>
+        <a href="#" style="color:#8b96a8">A</a>
+      </span>
+    </div>
+  </div>
+
+  <!-- hero -->
+  <div style="position:relative; height:290px; background-image:url('assets/img-hero.webp'); background-size:cover; background-position:center 35%">
+    <div style="position:absolute; inset:0; background:linear-gradient(0deg,#091b43f2 8%,#29468e66 62%,#0a142b73 100%)"></div>
+    <div style="position:absolute; inset:0; display:flex; flex-direction:column; justify-content:flex-end; padding:0 32px 26px">
+      <div style="display:flex; align-items:center; gap:10px; padding-bottom:10px">
+        <span style="font-family:'Almoni Tzar'; font-weight:500; font-size:13px; letter-spacing:.24em; color:#f58220">סיכום השבוע</span>
+        <span style="height:1.5px; width:56px; background:linear-gradient(to left,#f58220,#d54b63,#3863cea8); display:block"></span>
+      </div>
+      <div style="font-family:'Almoni Tzar'; font-weight:700; font-size:52px; line-height:.92; color:#f9fdff; max-width:460px; text-wrap:balance">חדשות והזדמנויות תעשיית החלל</div>
+      <div style="font-size:16px; font-weight:300; color:#cfd9e6; padding-top:12px">חמישי, 20 באוגוסט 2026 &nbsp;·&nbsp; 13–20 באוגוסט</div>
+    </div>
+  </div>
+
+  <!-- in this issue -->
+  <div style="background:#f0f6fa; padding:22px 32px; display:flex; gap:28px; align-items:flex-start">
+    <div style="font-family:'Almoni Tzar'; font-weight:700; font-size:15px; letter-spacing:.16em; color:#111b32; padding-top:3px; white-space:nowrap">במהדורה זו</div>
+    <div style="display:flex; flex-direction:column; gap:7px; flex:1">
+      <a href="#opps" style="font-size:16px; font-weight:400; color:#111b32; display:flex; align-items:center; gap:8px"><span style="width:6px; height:6px; border-radius:20px; background:#d54b63; display:block"></span>6 הזדמנויות חדשות — קולות קוראים, וובינרים ומשלחת</a>
+      <a href="#news" style="font-size:16px; font-weight:400; color:#111b32; display:flex; align-items:center; gap:8px"><span style="width:6px; height:6px; border-radius:20px; background:#4d77de; display:block"></span>8 אייטמים בחדשות — מדיניות, שיגורים, כלכלה וחישה מרחוק</a>
+    </div>
+  </div>
+
+  <sc-if value="{{ showEditorial }}" hint-placeholder-val="{{ true }}">
+<!-- editorial note -->
+  <div style="padding:34px 32px 0">
+    <div style="display:flex; gap:18px; align-items:flex-start">
+      <img src="assets/portrait-eitan.png" alt="" style="width:64px; height:64px; border-radius:50%; object-fit:cover; object-position:center 20%; flex:none" />
+      <div style="flex:1">
+        <div style="display:flex; align-items:center; gap:10px; padding-bottom:6px">
+          <span style="font-family:'Almoni Tzar'; font-weight:700; font-size:15px; letter-spacing:.16em; color:#111b32">דבר המערכת</span>
+          <span style="flex:1; height:1.5px; background:#111b32; display:block; opacity:.25"></span>
+        </div>
+        <div style="font-size:16.5px; font-weight:300; line-height:1.55; color:#2b3547">השבוע התכנסה לראשונה ועדת ההיגוי של התוכנית הלאומית לחלל, ובמקביל נפתחו שני קולות קוראים משמעותיים לתעשייה. שווה לשים לב למועדי ההגשה — שניהם נסגרים לפני חגי תשרי.</div>
+        <div style="padding-top:10px; font-size:14.5px; font-weight:500; color:#111b32">איתן סטיבה<span style="font-weight:300; color:#67717f"> · יו״ר משימת רקיע</span></div>
+      </div>
+    </div>
+  </div>
+
+  </sc-if>
+
+  <sc-if value="{{ showStats }}" hint-placeholder-val="{{ true }}">
+<!-- stats -->
+  <div style="padding:26px 32px 0">
+    <div style="background:#111b32; border-radius:13px; padding:20px 24px 18px; display:flex; align-items:stretch; gap:0">
+      <div style="flex:1">
+        <div style="font-family:'Almoni Tzar'; font-weight:700; font-size:38px; line-height:1; color:#f9fdff">7</div>
+        <div style="font-size:13.5px; font-weight:300; color:#a9b4c5; padding-top:4px">שיגורים מסלוליים בעולם השבוע</div>
+      </div>
+      <span style="width:1px; background:#ffffff26; display:block; margin:0 20px"></span>
+      <div style="flex:1">
+        <div style="font-family:'Almoni Tzar'; font-weight:700; font-size:38px; line-height:1; color:#f9fdff">38<span style="font-size:22px">M$</span></div>
+        <div style="font-size:13.5px; font-weight:300; color:#a9b4c5; padding-top:4px">גיוסים בתעשייה הישראלית</div>
+      </div>
+      <span style="width:1px; background:#ffffff26; display:block; margin:0 20px"></span>
+      <div style="flex:1">
+        <div style="font-family:'Almoni Tzar'; font-weight:700; font-size:38px; line-height:1; color:#f9fdff">12</div>
+        <div style="font-size:13.5px; font-weight:300; color:#a9b4c5; padding-top:4px">קולות קוראים פתוחים כרגע</div>
+      </div>
+    </div>
+  </div>
+
+  </sc-if>
+
+  <!-- ══ SECTION 01 — OPPORTUNITIES ══ -->
+  <div id="opps" style="padding:44px 32px 8px">
+    <div style="display:flex; align-items:flex-end; gap:14px">
+      <span style="font-family:'Almoni Tzar'; font-weight:700; font-size:34px; line-height:1; color:#111b32">הזדמנויות השבוע</span>
+      <span style="flex:1; height:1.5px; background:#111b32; display:block; margin-bottom:9px"></span>
+      <span style="width:6px; height:6px; border-radius:50%; background:#111b32; display:block; margin-bottom:6px"></span>
+    </div>
+    <div style="font-size:16px; font-weight:300; color:#4a5464; padding-top:8px; max-width:480px">קולות קוראים, אירועים, משלחות, וובינרים והכשרות שפורסמו לתעשיית החלל בשבוע האחרון.</div>
+  </div>
+
+  <div style="padding:22px 32px 8px; display:flex; flex-direction:column; gap:12px">
+
+    <div style="background:#f0f6fa; border-radius:13px; padding:20px 22px; display:flex; gap:18px; align-items:flex-start" style-hover="background:#e8f1f8">
+      <div style="flex:1">
+        <div style="display:flex; align-items:center; gap:8px; padding-bottom:9px">
+          <span style="font-family:'Almoni Tzar'; font-weight:400; font-size:14px; line-height:1.6; color:#111b32; background:#f9fdff; border-radius:3.8rem; padding:0 1rem">קול קורא</span>
+          <span style="font-size:13px; font-weight:500; color:#d54b63">מועד אחרון: 04.09</span>
+        </div>
+        <div style="font-family:'Almoni Tzar'; font-weight:700; font-size:24px; line-height:1.1; color:#111b32">מסלול מו״פ חלל — רשות החדשנות ומשרד החדשנות והמדע</div>
+        <div style="font-size:15.5px; font-weight:300; line-height:1.5; color:#4a5464; padding-top:6px">תמיכה של עד 50% בפרויקטים של חברות ישראליות בתחומי לוויינות, חישה מרחוק ותשתיות קרקע. תקציב כולל 45 מיליון ש״ח.</div>
+        <a href="#" style="display:inline-flex; align-items:center; gap:7px; padding-top:12px; font-size:14.5px; font-weight:600; color:#111b32">לפרטים והגשה<span style="width:26px; height:1.5px; background:#111b32; display:block"></span><span style="width:6px; height:6px; border-radius:20px; background:#111b32; display:block"></span></a>
+      </div>
+      <div style="width:104px; height:104px; border-radius:9px; background-image:url('assets/img-industry.png'); background-size:cover; background-position:center; flex:none"></div>
+    </div>
+
+    <div style="background:#f0f6fa; border-radius:13px; padding:20px 22px; display:flex; gap:18px; align-items:flex-start">
+      <div style="flex:1">
+        <div style="display:flex; align-items:center; gap:8px; padding-bottom:9px">
+          <span style="font-family:'Almoni Tzar'; font-weight:400; font-size:14px; line-height:1.6; color:#111b32; background:#f9fdff; border-radius:3.8rem; padding:0 1rem">משלחת</span>
+          <span style="font-size:13px; font-weight:500; color:#d54b63">הרשמה עד: 12.09</span>
+        </div>
+        <div style="font-family:'Almoni Tzar'; font-weight:700; font-size:24px; line-height:1.1; color:#111b32">משלחת תעשייה ל-IAC 2026, סידני</div>
+        <div style="font-size:15.5px; font-weight:300; line-height:1.5; color:#4a5464; padding-top:6px">הפורום הישראלי לחלל מוביל משלחת חברות לקונגרס האסטרונאוטי הבינלאומי, כולל פגישות B2B מתואמות מראש.</div>
+        <a href="#" style="display:inline-flex; align-items:center; gap:7px; padding-top:12px; font-size:14.5px; font-weight:600; color:#111b32">לפרטים והרשמה<span style="width:26px; height:1.5px; background:#111b32; display:block"></span><span style="width:6px; height:6px; border-radius:20px; background:#111b32; display:block"></span></a>
+      </div>
+      <div style="width:104px; height:104px; border-radius:9px; background-image:url('assets/img-events.png'); background-size:cover; background-position:center; flex:none"></div>
+    </div>
+
+    <div style="display:flex; gap:12px">
+      <div style="flex:1; background:#f0f6fa; border-radius:13px; padding:18px 20px">
+        <div style="font-family:'Almoni Tzar'; font-weight:400; font-size:14px; line-height:1.6; color:#111b32; background:#f9fdff; border-radius:3.8rem; padding:0 1rem; display:inline-block">וובינר</div>
+        <div style="font-family:'Almoni Tzar'; font-weight:700; font-size:20px; line-height:1.12; color:#111b32; padding-top:10px">רגולציית תדרים ללוויינים קטנים</div>
+        <div style="font-size:14.5px; font-weight:300; line-height:1.45; color:#4a5464; padding-top:5px">26.08, 16:00, מקוון · משרד התקשורת</div>
+        <a href="#" style="display:inline-flex; align-items:center; gap:7px; padding-top:11px; font-size:14px; font-weight:600; color:#111b32">להרשמה<span style="width:22px; height:1.5px; background:#111b32; display:block"></span><span style="width:6px; height:6px; border-radius:20px; background:#111b32; display:block"></span></a>
+      </div>
+      <div style="flex:1; background:#f0f6fa; border-radius:13px; padding:18px 20px">
+        <div style="font-family:'Almoni Tzar'; font-weight:400; font-size:14px; line-height:1.6; color:#111b32; background:#f9fdff; border-radius:3.8rem; padding:0 1rem; display:inline-block">הכשרה</div>
+        <div style="font-family:'Almoni Tzar'; font-weight:700; font-size:20px; line-height:1.12; color:#111b32; padding-top:10px">קורס Systems Engineering לחלל</div>
+        <div style="font-size:14.5px; font-weight:300; line-height:1.45; color:#4a5464; padding-top:5px">מחזור סתיו · טכניון, 8 מפגשים</div>
+        <a href="#" style="display:inline-flex; align-items:center; gap:7px; padding-top:11px; font-size:14px; font-weight:600; color:#111b32">לפרטים<span style="width:22px; height:1.5px; background:#111b32; display:block"></span><span style="width:6px; height:6px; border-radius:20px; background:#111b32; display:block"></span></a>
+      </div>
+    </div>
+
+    <a href="#" style="display:flex; align-items:center; justify-content:center; gap:8px; border:1.5px solid #111b32; border-radius:9rem; padding:.55rem 1.25rem; font-family:'Almoni Tzar'; font-weight:500; font-size:18px; color:#111b32; transition:.2s ease; margin-top:6px" style-hover="border-color:transparent; background:radial-gradient(circle,#d54b63 20%,#f58220 87%); color:#f9fdff">לכל 6 ההזדמנויות בפלטפורמת הפורום</a>
+  </div>
+
+  <sc-if value="{{ showEvents }}" hint-placeholder-val="{{ true }}">
+<!-- events calendar -->
+  <div style="padding:38px 32px 0">
+    <div style="display:flex; align-items:center; gap:12px">
+      <span style="font-family:'Almoni Tzar'; font-weight:700; font-size:19px; letter-spacing:.16em; color:#111b32">לוח אירועים · החודש הקרוב</span>
+      <span style="flex:1; height:1.5px; background:linear-gradient(to left,#f58220,#d54b63,#3863cea8); display:block"></span>
+    </div>
+    <div style="padding-top:14px; display:flex; flex-direction:column">
+
+      <a href="#" style="display:flex; align-items:center; gap:16px; padding:12px 4px; border-bottom:1px solid #e4eaf0">
+        <div style="width:52px; text-align:center; flex:none">
+          <div style="font-family:'Almoni Tzar'; font-weight:700; font-size:26px; line-height:.95; color:#111b32">26</div>
+          <div style="font-family:'Almoni Tzar'; font-weight:500; font-size:12px; letter-spacing:.14em; color:#67717f">אוג׳</div>
+        </div>
+        <span style="width:1.5px; height:32px; background:#d54b63; display:block; flex:none"></span>
+        <div style="flex:1">
+          <div style="font-family:'Almoni Tzar'; font-weight:700; font-size:19px; line-height:1.1; color:#111b32">וובינר: רגולציית תדרים ללוויינים קטנים</div>
+          <div style="font-size:14px; font-weight:300; color:#67717f; padding-top:2px">16:00 · מקוון · משרד התקשורת</div>
+        </div>
+      </a>
+
+      <a href="#" style="display:flex; align-items:center; gap:16px; padding:12px 4px; border-bottom:1px solid #e4eaf0">
+        <div style="width:52px; text-align:center; flex:none">
+          <div style="font-family:'Almoni Tzar'; font-weight:700; font-size:26px; line-height:.95; color:#111b32">03</div>
+          <div style="font-family:'Almoni Tzar'; font-weight:500; font-size:12px; letter-spacing:.14em; color:#67717f">ספט׳</div>
+        </div>
+        <span style="width:1.5px; height:32px; background:#f58220; display:block; flex:none"></span>
+        <div style="flex:1">
+          <div style="font-family:'Almoni Tzar'; font-weight:700; font-size:19px; line-height:1.1; color:#111b32">שולחן עגול: שרשרת אספקה לתעשיית הלוויינות</div>
+          <div style="font-size:14px; font-weight:300; color:#67717f; padding-top:2px">09:30 · הפורום הישראלי לחלל, תל אביב</div>
+        </div>
+      </a>
+
+      <a href="#" style="display:flex; align-items:center; gap:16px; padding:12px 4px; border-bottom:1px solid #e4eaf0">
+        <div style="width:52px; text-align:center; flex:none">
+          <div style="font-family:'Almoni Tzar'; font-weight:700; font-size:26px; line-height:.95; color:#111b32">17</div>
+          <div style="font-family:'Almoni Tzar'; font-weight:500; font-size:12px; letter-spacing:.14em; color:#67717f">ספט׳</div>
+        </div>
+        <span style="width:1.5px; height:32px; background:#4d77de; display:block; flex:none"></span>
+        <div style="flex:1">
+          <div style="font-family:'Almoni Tzar'; font-weight:700; font-size:19px; line-height:1.1; color:#111b32">כנס סטודנטים לחלל — מחזור 2026</div>
+          <div style="font-size:14px; font-weight:300; color:#67717f; padding-top:2px">כל היום · אוניברסיטת בן-גוריון</div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+
+  </sc-if>
+
+  <!-- ══ SECTION 02 — NEWS ══ -->
+  <div id="news" style="padding:44px 32px 0">
+    <div style="display:flex; align-items:flex-end; gap:14px">
+      <span style="font-family:'Almoni Tzar'; font-weight:700; font-size:34px; line-height:1; color:#111b32">חדשות החלל בשבוע האחרון</span>
+      <span style="flex:1; height:1.5px; background:#111b32; display:block; margin-bottom:9px"></span>
+      <span style="width:6px; height:6px; border-radius:50%; background:#111b32; display:block; margin-bottom:6px"></span>
+    </div>
+  </div>
+
+  <!-- lead story -->
+  <div style="padding:22px 32px 0">
+    <a href="#" style="display:block; border-radius:13px; overflow:hidden; background:#111b32">
+      <div style="height:230px; background-image:url('assets/img-vision-home.jpg'); background-size:cover; background-position:center"></div>
+      <div style="padding:20px 24px 22px">
+        <div style="display:flex; align-items:center; gap:7px; padding-bottom:10px">
+          <span style="font-family:'Almoni Tzar'; font-weight:400; font-size:13.5px; line-height:1.6; color:#111b32; background:#f9fdff; border-radius:3.8rem; padding:0 .85rem">ישראל</span>
+          <span style="font-family:'Almoni Tzar'; font-weight:400; font-size:13.5px; line-height:1.6; color:#f9fdff; box-shadow:inset 0 0 0 1.5px #f9fdff; border-radius:3.8rem; padding:0 .85rem">מדיניות</span>
+          <span style="font-size:12.5px; font-weight:300; color:#8f9bad">17.08</span>
+        </div>
+        <div style="font-family:'Almoni Tzar'; font-weight:700; font-size:30px; line-height:1.05; color:#f9fdff">סוכנות החלל הישראלית מציגה תוכנית לאומית לחלל לשנים 2027–2032</div>
+        <div style="font-size:15.5px; font-weight:300; line-height:1.5; color:#c3cddc; padding-top:8px">התוכנית כוללת יעד להכפלת היקף היצוא של תעשיית החלל האזרחית ומסלול ייעודי לחברות בשלב מוקדם. הדיון בוועדת המדע צפוי בספטמבר.</div>
+        <div style="display:inline-flex; align-items:center; gap:7px; padding-top:13px; font-size:14.5px; font-weight:600; color:#f9fdff">לכתבה המלאה<span style="width:26px; height:1.5px; background:#f9fdff; display:block"></span><span style="width:6px; height:6px; border-radius:20px; background:#f9fdff; display:block"></span></div>
+      </div>
+    </a>
+  </div>
+
+  <!-- category: שיגורים -->
+  <div style="padding:34px 32px 0; display:flex; align-items:center; gap:12px">
+    <span style="font-family:'Almoni Tzar'; font-weight:700; font-size:19px; letter-spacing:.16em; color:#111b32">שיגורים</span>
+    <span style="flex:1; height:1.5px; background:linear-gradient(to left,#f58220,#d54b63,#3863cea8); display:block"></span>
+  </div>
+
+  <div style="padding:16px 32px 0; display:flex; flex-direction:column; gap:16px">
+    <a href="#" style="display:flex; gap:16px; align-items:flex-start">
+      <div style="width:136px; height:96px; border-radius:9px; background-image:url('assets/img-crew.png'); background-size:cover; background-position:center; flex:none"></div>
+      <div style="flex:1">
+        <div style="display:flex; align-items:center; gap:7px; padding-bottom:5px">
+          <span style="font-family:'Almoni Tzar'; font-weight:400; font-size:13.5px; line-height:1.6; color:#111b32; background:#f0f6fa; border-radius:3.8rem; padding:0 .85rem">בינ״ל</span>
+          <span style="font-size:12.5px; font-weight:300; color:#7d8797">18.08 · SpaceNews</span>
+        </div>
+        <div style="font-family:'Almoni Tzar'; font-weight:700; font-size:21px; line-height:1.1; color:#111b32">שיגור Ax-5 נדחה לרבעון הראשון של 2027</div>
+        <div style="font-size:15px; font-weight:300; line-height:1.45; color:#4a5464; padding-top:4px">אקסיום מדווחת על עיכוב בהסמכת מודול המגורים; לוח הזמנים של המשימות הפרטיות לתחנה נדחה בהתאם.</div>
+      </div>
+    </a>
+
+    <a href="#" style="display:flex; gap:16px; align-items:flex-start">
+      <div style="width:136px; height:96px; border-radius:9px; background-image:url('assets/img-vision1.png'); background-size:cover; background-position:center; flex:none"></div>
+      <div style="flex:1">
+        <div style="display:flex; align-items:center; gap:7px; padding-bottom:5px">
+          <span style="font-family:'Almoni Tzar'; font-weight:400; font-size:13.5px; line-height:1.6; color:#f9fdff; background:#1e273d; border-radius:3.8rem; padding:0 .85rem">ישראל</span>
+          <span style="font-size:12.5px; font-weight:300; color:#7d8797">15.08 · כלכליסט</span>
+        </div>
+        <div style="font-family:'Almoni Tzar'; font-weight:700; font-size:21px; line-height:1.1; color:#111b32">שלושה ננו-לוויינים ישראליים שוגרו במשימת Transporter-16</div>
+        <div style="font-size:15px; font-weight:300; line-height:1.45; color:#4a5464; padding-top:4px">שניים מהם פותחו במסגרת תוכניות סטודנטים; הראשון כבר העביר טלמטריה מלאה מהמסלול.</div>
+      </div>
+    </a>
+  </div>
+
+  <!-- category: כלכלה -->
+  <div style="padding:30px 32px 0; display:flex; align-items:center; gap:12px">
+    <span style="font-family:'Almoni Tzar'; font-weight:700; font-size:19px; letter-spacing:.16em; color:#111b32">כלכלה ותעשייה</span>
+    <span style="flex:1; height:1.5px; background:linear-gradient(to left,#f58220,#d54b63,#3863cea8); display:block"></span>
+  </div>
+
+  <div style="padding:16px 32px 0; display:flex; flex-direction:column; gap:16px">
+    <a href="#" style="display:flex; gap:16px; align-items:flex-start">
+      <div style="width:136px; height:96px; border-radius:9px; background-image:url('assets/img-industry.png'); background-size:cover; background-position:center; flex:none"></div>
+      <div style="flex:1">
+        <div style="display:flex; align-items:center; gap:7px; padding-bottom:5px">
+          <span style="font-family:'Almoni Tzar'; font-weight:400; font-size:13.5px; line-height:1.6; color:#f9fdff; background:#1e273d; border-radius:3.8rem; padding:0 .85rem">ישראל</span>
+          <span style="font-size:12.5px; font-weight:300; color:#7d8797">19.08 · גלובס</span>
+        </div>
+        <div style="font-family:'Almoni Tzar'; font-weight:700; font-size:21px; line-height:1.1; color:#111b32">סבב B בהיקף 38 מיליון דולר לחברת תקשורת לייזר לוויינית</div>
+        <div style="font-size:15px; font-weight:300; line-height:1.45; color:#4a5464; padding-top:4px">הסבב הובל על ידי קרן אירופית, עם השתתפות משקיעים קיימים; הכסף יופנה להסמכת המוצר לחלל.</div>
+      </div>
+    </a>
+
+    <a href="#" style="display:flex; gap:16px; align-items:flex-start">
+      <div style="width:136px; height:96px; border-radius:9px; background-image:url('assets/img-vision2.png'); background-size:cover; background-position:center; flex:none"></div>
+      <div style="flex:1">
+        <div style="display:flex; align-items:center; gap:7px; padding-bottom:5px">
+          <span style="font-family:'Almoni Tzar'; font-weight:400; font-size:13.5px; line-height:1.6; color:#111b32; background:#f0f6fa; border-radius:3.8rem; padding:0 .85rem">בינ״ל</span>
+          <span style="font-size:12.5px; font-weight:300; color:#7d8797">14.08 · Payload</span>
+        </div>
+        <div style="font-family:'Almoni Tzar'; font-weight:700; font-size:21px; line-height:1.1; color:#111b32">ה-ESA מרחיבה את תקציב תוכנית חישה מרחוק ב-1.2 מיליארד יורו</div>
+        <div style="font-size:15px; font-weight:300; line-height:1.45; color:#4a5464; padding-top:4px">ההרחבה פותחת מכרזים לספקי רכיבים מחוץ לאיחוד — כולל שותפויות עם תעשייה ישראלית.</div>
+      </div>
+    </a>
+  </div>
+
+  <!-- category: חישה מרחוק -->
+  <div style="padding:30px 32px 0; display:flex; align-items:center; gap:12px">
+    <span style="font-family:'Almoni Tzar'; font-weight:700; font-size:19px; letter-spacing:.16em; color:#111b32">חישה מרחוק</span>
+    <span style="flex:1; height:1.5px; background:linear-gradient(to left,#f58220,#d54b63,#3863cea8); display:block"></span>
+  </div>
+
+  <div style="padding:16px 32px 0; display:flex; flex-direction:column; gap:16px">
+    <a href="#" style="display:flex; gap:16px; align-items:flex-start">
+      <div style="width:136px; height:96px; border-radius:9px; background-image:url('assets/img-education.png'); background-size:cover; background-position:center; flex:none"></div>
+      <div style="flex:1">
+        <div style="display:flex; align-items:center; gap:7px; padding-bottom:5px">
+          <span style="font-family:'Almoni Tzar'; font-weight:400; font-size:13.5px; line-height:1.6; color:#111b32; background:#f0f6fa; border-radius:3.8rem; padding:0 .85rem">בינ״ל</span>
+          <span style="font-size:12.5px; font-weight:300; color:#7d8797">13.08 · NASA</span>
+        </div>
+        <div style="font-family:'Almoni Tzar'; font-weight:700; font-size:21px; line-height:1.1; color:#111b32">מודל AI חדש לניתוח תמונות לוויין נפתח לשימוש חופשי</div>
+        <div style="font-size:15px; font-weight:300; line-height:1.45; color:#4a5464; padding-top:4px">המודל מזהה שינויי כיסוי קרקע ברזולוציה של 3 מטר, ומיועד לשימוש חקלאי וסביבתי.</div>
+      </div>
+    </a>
+  </div>
+
+  <!-- more news strip -->
+  <div style="padding:28px 32px 0">
+    <div style="background:#0c42780d; border-radius:13px; padding:18px 22px">
+      <div style="font-family:'Almoni Tzar'; font-weight:700; font-size:16px; letter-spacing:.14em; color:#111b32; padding-bottom:10px">בקצרה</div>
+      <div style="display:flex; flex-direction:column; gap:8px">
+        <a href="#" style="font-size:15.5px; font-weight:400; line-height:1.4; color:#111b32; display:flex; gap:9px; align-items:baseline"><span style="width:6px; height:6px; border-radius:20px; background:#4d77de; display:block; flex:none"></span>הוועדה המייעצת לחלל אישרה תקן חדש לניהול פסולת חלל</a>
+        <a href="#" style="font-size:15.5px; font-weight:400; line-height:1.4; color:#111b32; display:flex; gap:9px; align-items:baseline"><span style="width:6px; height:6px; border-radius:20px; background:#4d77de; display:block; flex:none"></span>שיתוף פעולה ישראלי-יפני בתחום ניווט לווייני יוצא לדרך</a>
+        <a href="#" style="font-size:15.5px; font-weight:400; line-height:1.4; color:#111b32; display:flex; gap:9px; align-items:baseline"><span style="width:6px; height:6px; border-radius:20px; background:#4d77de; display:block; flex:none"></span>דו״ח: 214 שיגורים מסלוליים מתחילת השנה — שיא כל הזמנים</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- partners -->
+  <div style="padding:34px 32px 0">
+    <div style="background:#f0f6fa; border-radius:13px; padding:18px 24px; display:flex; align-items:center; gap:22px">
+      <div style="font-family:'Almoni Tzar'; font-weight:500; font-size:13px; letter-spacing:.16em; color:#67717f; white-space:nowrap">בשיתוף</div>
+      <span style="width:1px; height:34px; background:#c9d6e2; display:block"></span>
+      <div style="flex:1; display:flex; align-items:center; gap:26px">
+        <img src="assets/logo-minhelet.png" alt="מנהלת החלל" style="height:56px; margin:-8px 0; display:block; mix-blend-mode:multiply" />
+        <img src="assets/logo-isf.svg" alt="הפורום הישראלי לחלל" style="height:34px; display:block" />
+        <img src="assets/logo-rakia-black.png" alt="משימת רקיע" style="height:30px; display:block" />
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ FOOTER ══ -->
+  <div style="margin-top:44px; background:#111b32; padding:38px 32px 30px; position:relative; overflow:hidden">
+    <div style="position:absolute; width:15rem; height:15rem; border-radius:50%; background:#3863cea8; filter:blur(90px); top:-90px; left:-60px"></div>
+    <div style="position:absolute; width:13rem; height:13rem; border-radius:50%; background:#8245d063; filter:blur(90px); bottom:-110px; right:-40px"></div>
+
+    <div style="position:relative">
+      <div style="font-family:'Almoni Tzar'; font-weight:700; font-size:26px; line-height:1.05; color:#f9fdff; max-width:380px">רוצים לקבל את החדשות בקצב אחר?</div>
+      <div style="font-size:15px; font-weight:300; color:#b9c4d4; padding-top:7px; max-width:400px">ניתן לעדכן את תדירות הניוזלטר בכל רגע דרך אזור הרישום באתר הפורום.</div>
+      <div style="display:flex; gap:9px; padding-top:16px">
+        <a href="#" style="font-family:'Almoni Tzar'; font-weight:500; font-size:17px; color:#f9fdff; border:1.5px solid #ffffff; border-radius:9rem; padding:.3125rem 1.25rem; transition:.2s ease" style-hover="border-color:transparent; background:radial-gradient(circle,#d54b63 20%,#f58220 87%)">יומי · 07:30</a>
+        <a href="#" style="font-family:'Almoni Tzar'; font-weight:500; font-size:17px; color:#111b32; background:#f9fdff; border:1.5px solid #f9fdff; border-radius:9rem; padding:.3125rem 1.25rem">שבועי · חמישי 17:00</a>
+        <a href="#" style="font-family:'Almoni Tzar'; font-weight:500; font-size:17px; color:#f9fdff; border:1.5px solid #ffffff; border-radius:9rem; padding:.3125rem 1.25rem; transition:.2s ease" style-hover="border-color:transparent; background:radial-gradient(circle,#d54b63 20%,#f58220 87%)">חודשי</a>
+      </div>
+
+      <div style="height:1px; background:#ffffff26; margin:28px 0 20px"></div>
+
+      <div style="display:flex; align-items:center; justify-content:space-between; gap:20px">
+        <div style="display:flex; align-items:center; gap:18px">
+          <img src="assets/logo-rakia-white.png" alt="משימת רקיע" style="height:24px; display:block" />
+          <span style="width:1px; height:22px; background:#ffffff26; display:block"></span>
+          <img src="assets/logo-isf.svg" alt="הפורום הישראלי לחלל" style="height:26px; display:block" />
+        </div>
+        <div style="display:flex; align-items:center; gap:10px">
+          <a href="#"><img src="assets/social-linkedin.png" alt="LinkedIn" style="height:20px; display:block; opacity:.85" /></a>
+          <a href="#"><img src="assets/social-facebook.png" alt="Facebook" style="height:20px; display:block; opacity:.85" /></a>
+          <a href="#"><img src="assets/social-instagram.png" alt="Instagram" style="height:20px; display:block; opacity:.85" /></a>
+          <a href="#"><img src="assets/social-youtube.png" alt="YouTube" style="height:20px; display:block; opacity:.85" /></a>
+        </div>
+      </div>
+
+      <div style="font-size:12.5px; font-weight:300; line-height:1.6; color:#8794a8; padding-top:20px">
+        קיבלתם את המייל הזה משום שנרשמתם לניוזלטר של הפורום הישראלי לחלל, מיסודה של משימת רקיע.<br />
+        <a href="#" style="color:#8794a8; text-decoration:underline; text-underline-offset:.2rem">עדכון העדפות</a> &nbsp;·&nbsp; <a href="#" style="color:#8794a8; text-decoration:underline; text-underline-offset:.2rem">הסרה מרשימת התפוצה</a> &nbsp;·&nbsp; משימת רקיע (ע״ר), תל אביב
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:720,&quot;height&quot;:2400},&quot;showEditorial&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;מודולים&quot;},&quot;showStats&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;מודולים&quot;},&quot;showEvents&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;מודולים&quot;}}">class Component extends DCLogic {
+  renderVals() {
+    const p = this.props;
+    return {
+      showEditorial: p.showEditorial ?? true,
+      showStats: p.showStats ?? true,
+      showEvents: p.showEvents ?? true,
+    };
+  }
+}</script>
+</body>
+</html>
